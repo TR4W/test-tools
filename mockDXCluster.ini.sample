@@ -1,0 +1,22 @@
+# mockDXCluster sample configuration.
+#
+# Copy this file to ~/.config/mockDXCluster.ini and edit to taste. Any key you
+# omit (or the whole file, if absent) falls back to the built-in defaults shown
+# below.
+
+[mockDXCluster]
+# TCP port the simulator listens on.
+port = 2323
+
+# Callsign reported as the spotted station when "own" mode is active.
+own_call = NY4I-4
+
+# Frequency (kHz) used for own-station spots.
+own_frequency = 14043.2
+
+# Start in own-spot mode? true = emit own_call spots, false = random spots.
+# Clients can still toggle this at runtime with the "own" / "notown" commands.
+own_spots = false
+
+# Delay, in milliseconds, between successive spots sent to each client.
+interval_ms = 25

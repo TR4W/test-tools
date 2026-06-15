@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local config (never commit a real config; use mockDXCluster.ini.sample)
+mockDXCluster.ini
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
